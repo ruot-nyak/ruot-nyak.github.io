@@ -1,0 +1,36 @@
+.navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000");
+  height: 80;
+}
+
+.withSpaceGif {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-image: url("../img/background-img2.jpg");
+  background-size: cover;
+  background-size: 33vw;
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.card {
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #2e2e2e;
+  text-align: center;
+}
+
+h7 {
+  color: azure;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
