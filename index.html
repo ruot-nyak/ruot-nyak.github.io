@@ -16,113 +16,187 @@
     />
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <!-- Start your project here-->
-    <div class="withSpaceGif">
-    <header>
 
-        <!-- Navbar brand -->
-          <!-- <a class="navbar-brand" href="#">
-            <img src="img/avatar1.svg" alt="Ruot the avatar" height="100">
-          </a> -->
+    <div class="mainPage">
 
-          <!--Navbar-->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-              <ul class="navbar-nav">
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-mdb-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Navigation
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Home</a></li>
-                    <li><a class="dropdown-item" href="#">Projects</a></li>
-                    <li><a class="dropdown-item" href="#">Resume</a></li>
-                    <li><a class="dropdown-item" href="#">About Me!</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </header>
+      <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container">
+            <ul class="navbar-nav">
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Navigation
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="#">Projects</a></li>
+                  <li><a class="dropdown-item" href="#">Resume</a></li>
+                  <li><a class="dropdown-item" href="#">About Me!</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        
+      </header>
     
 
-    <main>
-      <div class="container-main">
-        <div class="row ">
-          <div class="col-xs-12 col-lg-4">
-          </div>
-          <div class="col-xs-12 col-lg-4">
-            <h1>column 2</h1>
-          </div>
-          <div class="col-xs-12 col-lg-4">
-            <h1>column 3</h1>
-          </div>
-        </div>
-      </div>
-      <!--Right side of page-->
-      <!-- <div class="container-right">
-        <div class="row">
-          <div class="col-md-6">
+      <div class="container main col-xs-11 col-md-8">
 
+        <div class="row" style="margin-top: 5vh;">
+          <div class="col-xs-11 col-lg-8 home img-fluid shadow-5 rounded " style="height: 50vh; width: 25vw;">\
+
+            <div class="row">
+              <div class="col-xs-11 col-lg-8 " style="height: 50vh; width: 100vw; padding-left: 20%;">
+
+                <section class="home-right" style="height: 50vh; width: 50vw;">>
+                  <h2 id=home-text>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                    aliquam voluptatem veniam, est atque cumque eum delectus sint!</h2>
+        
+                </section>
+            </div>
           </div>
+
+
+
         </div>
 
-      </div> -->
-    </main>
+        <div class="row" style="height: 25vh">
+
+          <div style="height: 100%; width: 100%;" class="row bottom-text text-center">
+            <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+              molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+              aliquam voluptatem veniam, est atque cumque eum delectus sint!</h6>
+          </div>
+        
+        </div>
+
+        <div class="row" style="height: 10vh;">
+          <h1>
+            Projects
+          </h1>
+        </div>
+
+        <div class="row" style="height: 100vh;">
+          <div id="carouselSlides" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselSlides" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselSlides" data-slide-to="1"></li>
+              <li data-target="#carouselSlides" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="height: 100vh;">
+                <img class="d-block w-100" src="./img/background-img2.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item" style="height: 100vh;">
+                <img class="d-block w-100" src="./img/background-img2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item" style="height: 100vh;">
+                <img class="d-block w-100" src="./img/background-img2.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselSlides" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselSlides" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="contact row" style="height: 75vh; margin-top: 5vh;">
+          <h2>Contact Ruot!</h2>
+            <form>
+              <div>
+                <label>
+                  <span>What's Your Name?</span>
+                  <input type="text">
+                </label>
+          
+                <label>
+                  <span>Where Should I Reach You?</span>
+                  <input type="email text">
+                </label>
+              </div>
+              <div>
+                <label>
+                  <span>Message</span>
+                  <textarea></textarea>
+                </label>
+                <button type="submit">Send</button>
+              </div>
+            </form>
+        </div>
+    
       <footer class="text-center text-lg-start">
-        <!-- Grid container -->
-        <div class="container-fluid ">
-          <!--Grid row-->
-          <div class="row card-row">
-            <!--Grid column-->
-            <!-- <div class="col-xs-12 col-lg-4">
-            
-            </div> -->
-            <div class="col-xs-12 col-lg-4 card">
-              <h5 class="text-uppercase">Footer text</h5>
-      
-              <h6>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                aliquam voluptatem veniam, est atque cumque eum delectus sint!
-              </h6>
+          <!-- Grid container -->
+          <div class="container-fluid ">
+            <!--Grid row-->
+            <div class="row card-row">
+              <!--Grid column-->
+              <!-- <div class="col-xs-12 col-lg-4">
+              
+              </div> -->
+              <div class="col-xs-12 col-lg-4 card">
+                <h5 class="text-uppercase">Footer text</h5>
+        
+                <h6>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                  molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                  aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                </h6>
+              </div>
+              <div class="col-xs-12 col-lg-4 card">
+                <h5 class="text-uppercase">Footer text</h5>
+        
+                <h6>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                  molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                  aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                </h6>
+              </div>
+              <!-- Copyright -->
+              <div class="col-xs-12 text-center p-3 bg-light">
+                © 2021 Copyright:
+                <a class="text-dark" href="https://Ruot.net/">Ruot.net</a>
+              <!-- Copyright -->
+              </div>
             </div>
-            <div class="col-xs-12 col-lg-4 card">
-              <h5 class="text-uppercase">Footer text</h5>
-      
-              <h6>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                aliquam voluptatem veniam, est atque cumque eum delectus sint!
-              </h6>
-            </div>
-            <!-- Copyright -->
-            <div class="col-xs-12 text-center p-3 bg-light" style="background-color: rgba(0, 0, 0, 0.2);">
-              © 2020 Copyright:
-              <a class="text-dark" href="https://Ruot.net/">Ruot.net</a>
-            <!-- Copyright -->
-            </div>
-          </div>
 
-        </div>
+          </div>
 
       </footer>
+
     </div>
 
     <!-- MDB -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    
   </body>
 </html>
