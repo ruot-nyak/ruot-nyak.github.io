@@ -4,7 +4,7 @@
     <br />
     <br />
     <a href="https://ruot.net">
-  <img src="../img/websiteicon.png" alt="Website hyperlink" width="5%">
+  <img src="img/websiteicon.png" alt="Website hyperlink" width="5%">
 </a>
     <br />
     <br />
@@ -12,7 +12,7 @@
     <br><br>
     * #DevCommunity * #MakeSchool * Mongoose * Chai Testing * Flutter * ReactJs * MySql *
                   <br> || Can code in , Python, and Java || <br>
-                        Located in the Bay Area <img src="../img/ggbridge.png" alt="Golden Gate Bridge Pixel Art" width="28"
+                        Located in the Bay Area <img src="img/ggbridge.png" alt="Golden Gate Bridge Pixel Art" width="28"
   </samp>
 </p> 
  
